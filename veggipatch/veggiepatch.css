@@ -1,0 +1,30 @@
+.field{
+    -fx-background-image: url("dirt.png");
+    -fx-background-repeat: repeat;
+}
+
+.layer{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+.layer:grass{
+    -fx-background-image: url("grass.png")
+}
+
+.layer:fertilizer{
+    -fx-background-image: url("fert.png")
+}
+
+.layer:carrot{
+    -fx-background-image: url("carrot_raw.png")
+}
+.layer:carrot:ripe{
+    -fx-background-image: url("carrot.png")
+}
+
+.layer:turnip{
+    -fx-background-image: url("turnip_raw.png")
+}
+.layer:turnip:ripe{
+    -fx-background-image: url("turnip.png")
+}
